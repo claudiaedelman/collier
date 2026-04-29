@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collier Admin Login</title>
+    <link rel="icon" href="https://www.collier.co.il/wp-content/uploads/2024/04/collier-icon-logo-black.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/admin.css" />
+  </head>
+  <body class="admin-login-page">
+    <main class="admin-login-wrap">
+      <section class="admin-login-card">
+        <div class="admin-login-brand">
+          <img src="https://www.collier.co.il/wp-content/uploads/2024/04/collier-icon-logo-black.svg" alt="Collier" />
+          <p>Collier</p>
+        </div>
+        <h1>Admin Login</h1>
+        <p>Enter your username and password to access the admin screen.</p>
+        <form id="adminLoginForm" class="admin-login-form">
+          <label>
+            Username
+            <input id="adminUsername" name="username" autocomplete="username" required />
+          </label>
+          <label>
+            Password
+            <input id="adminPassword" name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit">Login</button>
+        </form>
+        <p id="adminLoginMessage" class="admin-login-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="assets/js/admin-login.js"></script>
+  </body>
+</html>

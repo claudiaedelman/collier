@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collier Admin</title>
+    <link rel="icon" href="https://www.collier.co.il/wp-content/uploads/2024/04/collier-icon-logo-black.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/admin.css" />
+  </head>
+  <body>
+    <main class="admin-wrap">
+      <header class="admin-head">
+        <div>
+          <h1>Collier Admin</h1>
+          <p>Edit products, menu items, and section text in Hebrew and English.</p>
+        </div>
+        <div class="admin-head-actions">
+          <a href="index.html">View Site</a>
+          <button id="exportJson">Export JSON</button>
+          <button id="adminLogout" type="button">Logout</button>
+        </div>
+      </header>
+
+      <section class="panel">
+        <h2>Menus</h2>
+        <div id="menuEditor"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Page Text</h2>
+        <div id="pagesEditor"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Products</h2>
+          <button id="addProduct">Add Product</button>
+        </div>
+        <div id="productsEditor"></div>
+      </section>
+
+      <section class="panel panel-save">
+        <button id="saveAll" class="save-btn">Save All Changes</button>
+      </section>
+    </main>
+
+    <script src="assets/js/wordpress-products.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/admin.js"></script>
+  </body>
+</html>
+
+

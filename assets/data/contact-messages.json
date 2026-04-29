@@ -1,0 +1,22 @@
+[
+  {
+    "id": "msg_1777284988823",
+    "name": "Contact Test",
+    "phone": "0500000000",
+    "email": "contact.test@example.com",
+    "message": "Testing contact form backend",
+    "lang": "he",
+    "source": "contact.html",
+    "createdAt": "2026-04-27T10:16:28.823Z"
+  },
+  {
+    "id": "msg_1777285011664",
+    "name": "Browser Test",
+    "phone": "0541112233",
+    "email": "browser.test@example.com",
+    "message": "Browser form submit test",
+    "lang": "he",
+    "source": "/contact.html",
+    "createdAt": "2026-04-27T10:16:51.664Z"
+  }
+]
